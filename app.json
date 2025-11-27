@@ -1,14 +1,14 @@
 {
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
-  "id": "com.tuya.zigbee",
-  "version": "0.2.73",
-  "compatibility": ">=5.0.0",
+  "id": "de.baschte.tuya.zigbee",
+  "version": "1.0.0",
+  "compatibility": ">=12.0.0",
   "platforms": [
     "local"
   ],
   "sdk": 3,
   "name": {
-    "en": "Tuya Zigbee"
+    "en": "Basti's Tuya Zigbee"
   },
   "description": {
     "en": "Control your white label Zigbee devices made by Tuya"
@@ -62,48 +62,36 @@
     "security",
     "appliances"
   ],
-  "brandColor": "#FF4800",
+  "brandColor": "#1497e2",
   "permissions": [
     "homey:wireless:zigbee"
   ],
   "homeyCommunityTopicId": 26439,
-  "source": "https://github.com/JohanBendz/com.tuya.zigbee",
-  "support": "mailto:johan_bendz@hotmail.com",
+  "source": "https://github.com/baschte/de.baschte.tuya.zigbee",
+  "support": "mailto:info@baschte.de",
   "bugs": {
-    "url": "https://github.com/JohanBendz/com.tuya.zigbee/issues"
+    "url": "https://github.com/baschte/de.baschte.tuya.zigbee/issues"
   },
   "images": {
     "large": "/assets/images/large.png",
     "small": "/assets/images/small.png"
   },
   "author": {
-    "name": "Johan Bendz",
-    "email": "johan_bendz@hotmail.com"
+    "name": "Sebastian Richter",
+    "email": "info@baschte.de"
   },
   "contributing": {
     "donate": {
       "paypal": {
-        "username": "JohanBendz"
+        "username": "basti1987"
       }
     }
   },
   "contributors": {
     "developers": [
       {
-        "name": "Johan Bendz",
-        "email": "johan_bendz@hotmail.com"
-      },
-      {
-        "name": "Martijn Aben",
-        "email": "lidl@escabe.org"
-      },
-      {
-        "name": "Jurgen Heine",
-        "email": "jurgen2.heine@gmail.com"
-      },
-      {
-        "name": "Morris Haid",
-        "email": "mhaid2016@outlook.com"
+        "name": "Sebastian Richter",
+        "email": "info@baschte.de"
       }
     ]
   },
@@ -9554,7 +9542,8 @@
       },
       "zigbee": {
         "manufacturerName": [
-          "_TZ3000_prits6g4"
+          "_TZ3000_prits6g4",
+          "_TZ3000_kqvb5akv"
         ],
         "productId": [
           "TS0001"

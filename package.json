@@ -1,6 +1,6 @@
 {
-  "name": "com.tuya.zigbee",
-  "version": "0.2.73",
+  "name": "de.baschte.tuya.zigbee",
+  "version": "1.0.0",
   "description": "Adds support for Tuya Zigbee devices to Homey",
   "main": "app.js",
   "scripts": {
@@ -12,25 +12,25 @@
     "Tuya",
     "Zigbee"
   ],
-  "author": "Johan Bendz",
+  "author": "Sebastian Richter",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/JohanBendz/com.tuya.zigbee.git"
+    "url": "https://github.com/baschte/de.baschte.tuya.zigbee"
   },
   "bugs": {
-    "url": "https://github.com/JohanBendz/com.tuya.zigbee/issues"
+    "url": "https://github.com/baschte/de.baschte.tuya.zigbee/issues"
   },
   "homepage": "https://bortbytt.se/2022/02/03/tuya-zigbee/",
   "engines": {
-    "node": ">=12"
+    "node": ">=20"
   },
   "contributors": [
-    "Johan Bendz <johan_bendz@hotmail.com>"
+    "Sebastian Richter <info@baschte.de>"
   ],
   "funding": {
     "type": "paypal",
-    "url": "https://www.paypal.me/johanbendz"
+    "url": "https://www.paypal.com/paypalme/basti1987"
   },
   "dependencies": {
     "homey-zigbeedriver": "^2.1.4",
