@@ -1,7 +1,7 @@
 {
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "de.baschte.tuya.zigbee",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "compatibility": ">=12.0.0",
   "platforms": [
     "local"
@@ -4412,6 +4412,38 @@
       ]
     },
     {
+      "name": {
+        "en": "Signal Repeater",
+        "de": "Signalverstärker"
+      },
+      "class": "other",
+      "capabilities": [],
+      "zigbee": {
+        "manufacturerName": "LUMI",
+        "productId": [
+          "lumi.router"
+        ],
+        "endpoints": {
+          "1": {
+            "clusters": [
+              0
+            ]
+          }
+        },
+        "learnmode": {
+          "image": "/drivers/lumi-router/assets/learnmode.svg",
+          "instruction": {
+            "en": "Press and hold the B2 button for 5 seconts until the LED starts blinking."
+          }
+        }
+      },
+      "images": {
+        "large": "/drivers/lumi-router/assets/images/large.png",
+        "small": "/drivers/lumi-router/assets/images/small.png"
+      },
+      "id": "lumi-router"
+    },
+    {
       "id": "motion_sensor",
       "name": {
         "en": "Motion Sensor"
@@ -8121,6 +8153,7 @@
           "_TZ3000_ew3ldmgx",
           "_TZ3000_dpo1ysak",
           "_TZ3000_w0qqde0g",
+          "_TZ3210_w0qqde0g",
           "_TZ3000_mraovvmm",
           "_TZ3000_u5u4cakc",
           "_TZ3000_typdpdpg",

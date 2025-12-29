@@ -1,5 +1,11 @@
 {
   "1.0.0": {
     "en": "Initial fork of the original Tuya Zigbee app by Athombv enhanced with additional device support."
+  },
+  "1.0.1": {
+    "en": "Updated device list"
+  },
+  "1.0.2": {
+    "en": "Updated device list with zigbee router"
   }
 }

@@ -1,0 +1,27 @@
+{
+  "name": {
+    "en": "Signal Repeater",
+    "de": "Signalverstärker"
+  },
+  "class": "other",
+  "capabilities": [],
+  "zigbee": {
+    "manufacturerName": "LUMI",
+    "productId": ["lumi.router"],
+    "endpoints": {
+      "1": {
+        "clusters": [0]
+      }
+    },
+    "learnmode": {
+      "image": "{{driverAssetsPath}}/learnmode.svg",
+      "instruction": {
+        "en": "Press and hold the B2 button for 5 seconts until the LED starts blinking."
+      }
+    }
+  },
+  "images": {
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "small": "{{driverAssetsPath}}/images/small.png"
+  }
+}
